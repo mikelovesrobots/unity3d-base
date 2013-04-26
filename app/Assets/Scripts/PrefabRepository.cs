@@ -2,8 +2,9 @@ using UnityEngine;
 using System.Collections;
 
 public class PrefabRepository : MonoBehaviour {
-    private static PrefabRepository instance;
+    public GameObject ExamplePrefab;
 
+    private static PrefabRepository instance;
     public static PrefabRepository Instance {
         get {
             if (instance == null) {
